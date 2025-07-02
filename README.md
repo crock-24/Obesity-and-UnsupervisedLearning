@@ -10,8 +10,8 @@ gathered here contains information that may be related to obesity, and utilizes 
 learning techniques such as:
 - PCA, 
 - k-means clustering, 
-- hierarchical clustering 
-to see if the predictors gathered do a good job of detecting and naturally grouping
+- hierarchical clustering
+\nto see if the predictors gathered do a good job of detecting and naturally grouping
 people into their respective obesity categorization. Do certain traits tend to naturally group
 people into obesity and non obesity, or do people randomly fall into their categorization
 regardless of the traits collected in this dataset? Are there patterns that distinguish obesity
