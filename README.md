@@ -1,19 +1,39 @@
-# Obesity Categorization Clustering around Various Traits
-Obesity is a problem that many Americans are struggling with today. There is still some
-disagreement however on why exactly this is the case and what traits/lifestyle choices
-contribute to obesity the most. For example, two articles from highly reputable sources that were
-considered in the motivation for this analysis take opposing stances on the relationship between
-calorie intake and weight gain. One article takes the stance that unhealthy weight is heavily
-influenced by the equation of calories in vs. calories burned, the other article takes the stance
-that not all calories are equal and that calories alone do not tell the whole story. The dataset
-gathered here contains information that may be related to obesity, and utilizes different unsupervised 
-learning techniques such as:
-- PCA, 
-- k-means clustering, 
-- hierarchical clustering
-<br> to see if the predictors gathered do a good job of detecting and naturally grouping
-people into their respective obesity categorization. Do certain traits tend to naturally group
-people into obesity and non obesity, or do people randomly fall into their categorization
-regardless of the traits collected in this dataset? Are there patterns that distinguish obesity
-types, such as obesity type I and obesity type III or is there not a distinguishable difference in
-these groups? That is what this analysis intends to look into further.
+# Obesity Categorization via Clustering and Dimensionality Reduction
+
+Obesity is a growing public health issue that affects millions of Americans today. Despite its widespread impact, there remains substantial debate regarding its root causes. For instance, two reputable articles that helped inspire this analysis take opposing views:
+
+- One article argues that weight gain is primarily driven by the **calories in vs. calories out** equation.
+- The other contends that not all calories are equal, and that calorie count alone doesn't tell the full story.
+
+This project explores whether various lifestyle traits and behavioral indicators can naturally group individuals into obesity categories using unsupervised learning techniques.
+
+---
+
+## Objective
+
+Using a dataset containing behavioral and physiological features potentially related to obesity, we aim to answer:
+
+- Do certain lifestyle or dietary patterns naturally cluster people into obesity categories?
+- Can traits such as physical activity, eating habits, or health history predict distinctions between obesity levels (e.g., Obesity Type I vs. Type III)?
+- Are there identifiable subgroups within the population that could inform targeted interventions?
+
+---
+
+## Methods
+
+We use a variety of unsupervised machine learning techniques to analyze the data:
+
+- **Principal Component Analysis (PCA)** – for dimensionality reduction and visualization
+- **K-Means Clustering** – to identify natural groupings within the dataset
+- **Hierarchical Clustering** – to explore multi-level relationships among individuals
+
+These tools help us discover patterns in the data **without using obesity status as a label** during training.
+
+---
+
+## Key Questions
+
+- Can people be grouped into obesity categories based on lifestyle and demographic traits alone?
+- Are the resulting clusters meaningful, or do individuals fall into categories randomly?
+- Is there a distinguishable difference between obesity subtypes, such as Obesity Type I vs. Obesity Type III?
+
